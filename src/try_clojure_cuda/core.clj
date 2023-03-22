@@ -1,5 +1,7 @@
 (ns try-clojure-cuda.core)
 
+;; Source: https://clojurecuda.uncomplicate.org/articles/getting_started.html
+
 (require '[uncomplicate.clojurecuda.core :refer :all]
          '[uncomplicate.commons.core :refer [info]]
          '[uncomplicate.clojurecuda.info :refer :all])
